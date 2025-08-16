@@ -34,7 +34,7 @@
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
-    transition: transform 0.25s ease;
+    transition: transform 0.7s ease;
     display: block;
 }
 
