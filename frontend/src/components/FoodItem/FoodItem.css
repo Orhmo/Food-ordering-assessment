@@ -55,6 +55,7 @@
     right: 15px;
     cursor: pointer;
     border-radius: 50%;
+    margin-bottom: 12px;
 }
 
 .food-item-counter{
@@ -63,7 +64,8 @@
     right: 15px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    margin: 6px 0px;
     padding: 6px;
     border-radius: 50px;
     background-color: white;
@@ -71,4 +73,15 @@
 
 .food-item-counter img{
     width: 30px;
+    height: 30px;
+    flex: 0 0 30px; 
+}
+
+.food-item-counter .qty{
+  display: inline-block;
+  width: 32px;            
+  text-align: center;
+  line-height: 1;         
+  font-variant-numeric: tabular-nums;  
+  user-select: none;
 }
